@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 /* secondary fonts */
-@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
 /* universal style */
 *{
@@ -19,7 +19,7 @@ body{
  margin: 0 auto;
 }
 main{
-    width: 85%;
+    /* width: 85%; */
 }
 
 /* shared styles */
@@ -115,9 +115,60 @@ main{
    margin-bottom: 28px;
 }
 .shape{
-    font-family: "Great Vibes", cursive;
+    font-family: "Italianno", cursive;
+    font-size: 7rem;
+    font-weight: 400;
 }
 .btn-container{
     gap:20px;
     margin-top: 20px;
 }
+/* habits section styles starts */
+
+.habits{
+    margin:0 auto;
+    text-align: center;
+    width: 685px;
+    height:120px ;
+}
+.habits-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color:rgb(255, 255, 255);
+    margin-bottom: 14px;
+}
+.habits-description{
+    font-size: .8rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+}
+/* habits items */
+.habits-items-container{
+    display: flex;
+    margin-bottom: 100px;
+
+}
+.habit-img{
+    border-radius: 50%;
+
+}
+.h-i-t{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.h-i-d{
+    font-size: .6rem;
+    font-weight: 300;
+    margin-top: 15px;
+    color:rgba(255, 255, 255, 0.4);
+}
+.habits-item{
+    width: 231px;
+    height: 274px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+/* habits section styles ends */
