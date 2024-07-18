@@ -18,9 +18,9 @@ body{
  background: rgb(0, 0, 0);
  margin: 0 auto;
 }
-main{
-    /* width: 85%; */
-}
+/* main{
+    width: 85%;
+} */
 
 /* shared styles */
 .btn-1{
@@ -146,6 +146,7 @@ main{
 .habits-items-container{
     display: flex;
     margin-bottom: 100px;
+    justify-content: space-between;
 
 }
 .habit-img{
@@ -172,3 +173,40 @@ main{
 }
 
 /* habits section styles ends */
+
+
+/* run container style starts */
+.run-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    padding: 24px 30px 24px 54px;
+    margin-bottom: 100px;
+    
+}
+.run-content{
+    width: 443px;
+    height: 116px;
+    padding: 30px 37px ;
+}
+.run-img{
+    width: 360px;
+    border-radius: 18px;
+    
+}
+.run-title{
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 14px;
+    line-height:3rem;
+}
+.run-descriptio{
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 24px;
+    font-size: 0.7rem;
+    font-weight: 300;
+    line-height: 1.1rem;
+    margin-bottom: 35px;
+}
+/* run container style ends */
